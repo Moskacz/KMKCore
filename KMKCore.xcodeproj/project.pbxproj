@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3502A99E20E7F14D000C15DB /* KMKCoreiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3502A99420E7F14D000C15DB /* KMKCoreiOS.framework */; };
-		3502A9A320E7F14D000C15DB /* KMKCoreiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502A9A220E7F14D000C15DB /* KMKCoreiOSTests.swift */; };
-		3502A9A520E7F14D000C15DB /* KMKCoreiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 3502A99720E7F14D000C15DB /* KMKCoreiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3502A9BA20E7F188000C15DB /* KMKCoremacOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3502A9B120E7F188000C15DB /* KMKCoremacOS.framework */; };
-		3502A9BF20E7F188000C15DB /* KMKCoremacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502A9BE20E7F188000C15DB /* KMKCoremacOSTests.swift */; };
-		3502A9C120E7F188000C15DB /* KMKCoremacOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 3502A9B320E7F188000C15DB /* KMKCoremacOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3502A99E20E7F14D000C15DB /* KMKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3502A99420E7F14D000C15DB /* KMKCore.framework */; };
+		3502A9BA20E7F188000C15DB /* KMKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3502A9B120E7F188000C15DB /* KMKCore.framework */; };
+		3502A9D020E81663000C15DB /* KMKCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3502A9CF20E815B1000C15DB /* KMKCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3502A9D120E81664000C15DB /* KMKCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3502A9CF20E815B1000C15DB /* KMKCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3502A9D320E81683000C15DB /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502A9D220E81683000C15DB /* TestClass.swift */; };
+		3502A9D420E81683000C15DB /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502A9D220E81683000C15DB /* TestClass.swift */; };
+		3502A9D620E816B6000C15DB /* TestClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502A9D520E816B6000C15DB /* TestClassTests.swift */; };
+		3502A9D720E816B6000C15DB /* TestClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502A9D520E816B6000C15DB /* TestClassTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,18 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3502A99420E7F14D000C15DB /* KMKCoreiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KMKCoreiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3502A99720E7F14D000C15DB /* KMKCoreiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMKCoreiOS.h; sourceTree = "<group>"; };
-		3502A99820E7F14D000C15DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3502A99420E7F14D000C15DB /* KMKCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KMKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3502A99D20E7F14D000C15DB /* KMKCoreiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMKCoreiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3502A9A220E7F14D000C15DB /* KMKCoreiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMKCoreiOSTests.swift; sourceTree = "<group>"; };
-		3502A9A420E7F14D000C15DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3502A9B120E7F188000C15DB /* KMKCoremacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KMKCoremacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3502A9B320E7F188000C15DB /* KMKCoremacOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMKCoremacOS.h; sourceTree = "<group>"; };
-		3502A9B420E7F188000C15DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3502A9B120E7F188000C15DB /* KMKCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KMKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3502A9B920E7F188000C15DB /* KMKCoremacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMKCoremacOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3502A9BE20E7F188000C15DB /* KMKCoremacOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMKCoremacOSTests.swift; sourceTree = "<group>"; };
-		3502A9C020E7F188000C15DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3502A9CA20E80FBD000C15DB /* Info-macOS-unittests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS-unittests.plist"; sourceTree = "<group>"; };
+		3502A9CB20E80FBD000C15DB /* Info-iOS-unittests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS-unittests.plist"; sourceTree = "<group>"; };
+		3502A9CC20E80FBD000C15DB /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
+		3502A9CD20E80FBD000C15DB /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+		3502A9CF20E815B1000C15DB /* KMKCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMKCore.h; sourceTree = "<group>"; };
+		3502A9D220E81683000C15DB /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
+		3502A9D520E816B6000C15DB /* TestClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClassTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3502A99E20E7F14D000C15DB /* KMKCoreiOS.framework in Frameworks */,
+				3502A99E20E7F14D000C15DB /* KMKCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3502A9BA20E7F188000C15DB /* KMKCoremacOS.framework in Frameworks */,
+				3502A9BA20E7F188000C15DB /* KMKCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,10 +85,9 @@
 		3502A98820E79A6A000C15DB = {
 			isa = PBXGroup;
 			children = (
-				3502A99620E7F14D000C15DB /* KMKCoreiOS */,
-				3502A9A120E7F14D000C15DB /* KMKCoreiOSTests */,
-				3502A9B220E7F188000C15DB /* KMKCoremacOS */,
-				3502A9BD20E7F188000C15DB /* KMKCoremacOSTests */,
+				3502A9CF20E815B1000C15DB /* KMKCore.h */,
+				3502A9CE20E814AB000C15DB /* UnitTests */,
+				3502A9C820E80F1F000C15DB /* Sources */,
 				3502A99520E7F14D000C15DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,48 +95,40 @@
 		3502A99520E7F14D000C15DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3502A99420E7F14D000C15DB /* KMKCoreiOS.framework */,
+				3502A99420E7F14D000C15DB /* KMKCore.framework */,
 				3502A99D20E7F14D000C15DB /* KMKCoreiOSTests.xctest */,
-				3502A9B120E7F188000C15DB /* KMKCoremacOS.framework */,
+				3502A9B120E7F188000C15DB /* KMKCore.framework */,
 				3502A9B920E7F188000C15DB /* KMKCoremacOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3502A99620E7F14D000C15DB /* KMKCoreiOS */ = {
+		3502A9C820E80F1F000C15DB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				3502A99720E7F14D000C15DB /* KMKCoreiOS.h */,
-				3502A99820E7F14D000C15DB /* Info.plist */,
+				3502A9C920E80F26000C15DB /* Configuration */,
+				3502A9D220E81683000C15DB /* TestClass.swift */,
 			);
-			path = KMKCoreiOS;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		3502A9A120E7F14D000C15DB /* KMKCoreiOSTests */ = {
+		3502A9C920E80F26000C15DB /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				3502A9A220E7F14D000C15DB /* KMKCoreiOSTests.swift */,
-				3502A9A420E7F14D000C15DB /* Info.plist */,
+				3502A9CB20E80FBD000C15DB /* Info-iOS-unittests.plist */,
+				3502A9CD20E80FBD000C15DB /* Info-iOS.plist */,
+				3502A9CA20E80FBD000C15DB /* Info-macOS-unittests.plist */,
+				3502A9CC20E80FBD000C15DB /* Info-macOS.plist */,
 			);
-			path = KMKCoreiOSTests;
+			path = Configuration;
 			sourceTree = "<group>";
 		};
-		3502A9B220E7F188000C15DB /* KMKCoremacOS */ = {
+		3502A9CE20E814AB000C15DB /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				3502A9B320E7F188000C15DB /* KMKCoremacOS.h */,
-				3502A9B420E7F188000C15DB /* Info.plist */,
+				3502A9D520E816B6000C15DB /* TestClassTests.swift */,
 			);
-			path = KMKCoremacOS;
-			sourceTree = "<group>";
-		};
-		3502A9BD20E7F188000C15DB /* KMKCoremacOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				3502A9BE20E7F188000C15DB /* KMKCoremacOSTests.swift */,
-				3502A9C020E7F188000C15DB /* Info.plist */,
-			);
-			path = KMKCoremacOSTests;
+			path = UnitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +138,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3502A9A520E7F14D000C15DB /* KMKCoreiOS.h in Headers */,
+				3502A9D120E81664000C15DB /* KMKCore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,7 +146,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3502A9C120E7F188000C15DB /* KMKCoremacOS.h in Headers */,
+				3502A9D020E81663000C15DB /* KMKCore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +168,7 @@
 			);
 			name = KMKCoreiOS;
 			productName = KMKCoreiOS;
-			productReference = 3502A99420E7F14D000C15DB /* KMKCoreiOS.framework */;
+			productReference = 3502A99420E7F14D000C15DB /* KMKCore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3502A99C20E7F14D000C15DB /* KMKCoreiOSTests */ = {
@@ -212,7 +204,7 @@
 			);
 			name = KMKCoremacOS;
 			productName = KMKCoremacOS;
-			productReference = 3502A9B120E7F188000C15DB /* KMKCoremacOS.framework */;
+			productReference = 3502A9B120E7F188000C15DB /* KMKCore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3502A9B820E7F188000C15DB /* KMKCoremacOSTests */ = {
@@ -244,15 +236,19 @@
 				TargetAttributes = {
 					3502A99320E7F14D000C15DB = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					3502A99C20E7F14D000C15DB = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					3502A9B020E7F188000C15DB = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					3502A9B820E7F188000C15DB = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -312,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3502A9D320E81683000C15DB /* TestClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3502A9A320E7F14D000C15DB /* KMKCoreiOSTests.swift in Sources */,
+				3502A9D620E816B6000C15DB /* TestClassTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3502A9D420E81683000C15DB /* TestClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3502A9BF20E7F188000C15DB /* KMKCoremacOSTests.swift in Sources */,
+				3502A9D720E816B6000C15DB /* TestClassTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = KMKCoreiOS/Info.plist;
+				INFOPLIST_FILE = "Sources/Configuration/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -434,8 +432,8 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = michal.moskala.KMKCoreiOS;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moskala.michal.kmklive.core;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -499,7 +497,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = KMKCoreiOS/Info.plist;
+				INFOPLIST_FILE = "Sources/Configuration/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -508,8 +506,8 @@
 					"@loader_path/Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = michal.moskala.KMKCoreiOS;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moskala.michal.kmklive.core;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -525,6 +523,7 @@
 		3502A9AA20E7F14D000C15DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -575,7 +574,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = KMKCoreiOSTests/Info.plist;
+				INFOPLIST_FILE = "Sources/Configuration/Info-iOS-unittests.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -597,6 +596,7 @@
 		3502A9AB20E7F14D000C15DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -641,7 +641,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = KMKCoreiOSTests/Info.plist;
+				INFOPLIST_FILE = "Sources/Configuration/Info-iOS-unittests.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -720,7 +720,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = KMKCoremacOS/Info.plist;
+				INFOPLIST_FILE = "Sources/Configuration/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -730,8 +730,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = michal.moskala.KMKCoremacOS;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moskala.michal.kmklive.core;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -796,7 +796,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = KMKCoremacOS/Info.plist;
+				INFOPLIST_FILE = "Sources/Configuration/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -805,8 +805,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = michal.moskala.KMKCoremacOS;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moskala.michal.kmklive.core;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -820,6 +820,7 @@
 		3502A9C620E7F188000C15DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -871,7 +872,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = KMKCoremacOSTests/Info.plist;
+				INFOPLIST_FILE = "Sources/Configuration/Info-macOS-unittests.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -892,6 +893,7 @@
 		3502A9C720E7F188000C15DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -937,7 +939,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = KMKCoremacOSTests/Info.plist;
+				INFOPLIST_FILE = "Sources/Configuration/Info-macOS-unittests.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
