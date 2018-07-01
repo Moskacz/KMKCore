@@ -98,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				3502A9CF20E815B1000C15DB /* KMKCore.h */,
-				3502A9CE20E814AB000C15DB /* UnitTests */,
 				3502A9C820E80F1F000C15DB /* Sources */,
+				3502A9CE20E814AB000C15DB /* UnitTests */,
 				3502A99520E7F14D000C15DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,6 +118,7 @@
 		3502A9C820E80F1F000C15DB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				355DAF2920E925AD00D9F418 /* Vehicles */,
 				3502A9C920E80F26000C15DB /* Configuration */,
 				3502A9D220E81683000C15DB /* TestClass.swift */,
 			);
@@ -138,7 +139,6 @@
 		3502A9CE20E814AB000C15DB /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				355DAF2920E925AD00D9F418 /* Vehicles */,
 				3502A9D520E816B6000C15DB /* TestClassTests.swift */,
 			);
 			path = UnitTests;
