@@ -17,6 +17,8 @@
 		3502A9D720E816B6000C15DB /* TestClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502A9D520E816B6000C15DB /* TestClassTests.swift */; };
 		355DAF2B20E925C300D9F418 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF2A20E925C300D9F418 /* Vehicle.swift */; };
 		355DAF2C20E925C300D9F418 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF2A20E925C300D9F418 /* Vehicle.swift */; };
+		355DAF2E20E926E000D9F418 /* VehicleImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF2D20E926E000D9F418 /* VehicleImpl.swift */; };
+		355DAF2F20E926E000D9F418 /* VehicleImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF2D20E926E000D9F418 /* VehicleImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		3502A9D220E81683000C15DB /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
 		3502A9D520E816B6000C15DB /* TestClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClassTests.swift; sourceTree = "<group>"; };
 		355DAF2A20E925C300D9F418 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		355DAF2D20E926E000D9F418 /* VehicleImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleImpl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				355DAF2A20E925C300D9F418 /* Vehicle.swift */,
+				355DAF2D20E926E000D9F418 /* VehicleImpl.swift */,
 			);
 			path = Vehicles;
 			sourceTree = "<group>";
@@ -321,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				355DAF2B20E925C300D9F418 /* Vehicle.swift in Sources */,
+				355DAF2E20E926E000D9F418 /* VehicleImpl.swift in Sources */,
 				3502A9D320E81683000C15DB /* TestClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				355DAF2C20E925C300D9F418 /* Vehicle.swift in Sources */,
+				355DAF2F20E926E000D9F418 /* VehicleImpl.swift in Sources */,
 				3502A9D420E81683000C15DB /* TestClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
