@@ -29,6 +29,14 @@
 		355DAF3C20E92BBB00D9F418 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF3A20E92BBB00D9F418 /* URLSessionHTTPClient.swift */; };
 		355DAF3E20E92FAF00D9F418 /* HTTPOperationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF3D20E92FAF00D9F418 /* HTTPOperationError.swift */; };
 		355DAF3F20E92FAF00D9F418 /* HTTPOperationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF3D20E92FAF00D9F418 /* HTTPOperationError.swift */; };
+		355DAF4220E9332A00D9F418 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF4120E9332A00D9F418 /* Mapper.swift */; };
+		355DAF4320E9332A00D9F418 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF4120E9332A00D9F418 /* Mapper.swift */; };
+		355DAF4520E933FD00D9F418 /* VehicleMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF4420E933FD00D9F418 /* VehicleMapper.swift */; };
+		355DAF4620E933FD00D9F418 /* VehicleMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF4420E933FD00D9F418 /* VehicleMapper.swift */; };
+		355DAF4820E9345500D9F418 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF4720E9345500D9F418 /* JSON.swift */; };
+		355DAF4920E9345500D9F418 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF4720E9345500D9F418 /* JSON.swift */; };
+		355DAF4B20E9362A00D9F418 /* JSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF4A20E9362A00D9F418 /* JSONTests.swift */; };
+		355DAF4C20E9362A00D9F418 /* JSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF4A20E9362A00D9F418 /* JSONTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +75,10 @@
 		355DAF3720E92A0F00D9F418 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		355DAF3A20E92BBB00D9F418 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 		355DAF3D20E92FAF00D9F418 /* HTTPOperationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPOperationError.swift; sourceTree = "<group>"; };
+		355DAF4120E9332A00D9F418 /* Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		355DAF4420E933FD00D9F418 /* VehicleMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleMapper.swift; sourceTree = "<group>"; };
+		355DAF4720E9345500D9F418 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		355DAF4A20E9362A00D9F418 /* JSONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +139,7 @@
 		3502A9C820E80F1F000C15DB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				355DAF4020E932DB00D9F418 /* Common */,
 				355DAF3620E929F800D9F418 /* HTTPClient */,
 				355DAF2920E925AD00D9F418 /* Vehicles */,
 				3502A9C920E80F26000C15DB /* Configuration */,
@@ -150,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				3502A9D520E816B6000C15DB /* TestClassTests.swift */,
+				355DAF4A20E9362A00D9F418 /* JSONTests.swift */,
 			);
 			path = UnitTests;
 			sourceTree = "<group>";
@@ -161,6 +175,7 @@
 				355DAF2D20E926E000D9F418 /* VehicleImpl.swift */,
 				355DAF3020E927CC00D9F418 /* VehiclesService.swift */,
 				355DAF3320E9286E00D9F418 /* VehiclesServiceWebImpl.swift */,
+				355DAF4420E933FD00D9F418 /* VehicleMapper.swift */,
 			);
 			path = Vehicles;
 			sourceTree = "<group>";
@@ -173,6 +188,15 @@
 				355DAF3D20E92FAF00D9F418 /* HTTPOperationError.swift */,
 			);
 			path = HTTPClient;
+			sourceTree = "<group>";
+		};
+		355DAF4020E932DB00D9F418 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				355DAF4120E9332A00D9F418 /* Mapper.swift */,
+				355DAF4720E9345500D9F418 /* JSON.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,13 +377,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				355DAF3120E927CC00D9F418 /* VehiclesService.swift in Sources */,
+				355DAF4820E9345500D9F418 /* JSON.swift in Sources */,
 				355DAF2B20E925C300D9F418 /* Vehicle.swift in Sources */,
 				355DAF3420E9286E00D9F418 /* VehiclesServiceWebImpl.swift in Sources */,
 				355DAF3820E92A0F00D9F418 /* HTTPClient.swift in Sources */,
+				355DAF4220E9332A00D9F418 /* Mapper.swift in Sources */,
 				355DAF3B20E92BBB00D9F418 /* URLSessionHTTPClient.swift in Sources */,
 				355DAF2E20E926E000D9F418 /* VehicleImpl.swift in Sources */,
 				355DAF3E20E92FAF00D9F418 /* HTTPOperationError.swift in Sources */,
 				3502A9D320E81683000C15DB /* TestClass.swift in Sources */,
+				355DAF4520E933FD00D9F418 /* VehicleMapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3502A9D620E816B6000C15DB /* TestClassTests.swift in Sources */,
+				355DAF4B20E9362A00D9F418 /* JSONTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,13 +404,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				355DAF3220E927CC00D9F418 /* VehiclesService.swift in Sources */,
+				355DAF4920E9345500D9F418 /* JSON.swift in Sources */,
 				355DAF2C20E925C300D9F418 /* Vehicle.swift in Sources */,
 				355DAF3520E9286E00D9F418 /* VehiclesServiceWebImpl.swift in Sources */,
 				355DAF3920E92A0F00D9F418 /* HTTPClient.swift in Sources */,
+				355DAF4320E9332A00D9F418 /* Mapper.swift in Sources */,
 				355DAF3C20E92BBB00D9F418 /* URLSessionHTTPClient.swift in Sources */,
 				355DAF2F20E926E000D9F418 /* VehicleImpl.swift in Sources */,
 				355DAF3F20E92FAF00D9F418 /* HTTPOperationError.swift in Sources */,
 				3502A9D420E81683000C15DB /* TestClass.swift in Sources */,
+				355DAF4620E933FD00D9F418 /* VehicleMapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +422,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3502A9D720E816B6000C15DB /* TestClassTests.swift in Sources */,
+				355DAF4C20E9362A00D9F418 /* JSONTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

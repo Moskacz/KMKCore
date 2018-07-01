@@ -20,8 +20,6 @@ internal enum HTTPMethod: String {
     case GET = "GET"
 }
 
-internal typealias JSON = [AnyHashable: Any]
-
 internal enum HTTPOperationResult {
     case error(HTTPOperationError)
     case json(JSON)
