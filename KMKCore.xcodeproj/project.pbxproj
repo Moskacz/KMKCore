@@ -15,6 +15,8 @@
 		3502A9D420E81683000C15DB /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502A9D220E81683000C15DB /* TestClass.swift */; };
 		3502A9D620E816B6000C15DB /* TestClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502A9D520E816B6000C15DB /* TestClassTests.swift */; };
 		3502A9D720E816B6000C15DB /* TestClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502A9D520E816B6000C15DB /* TestClassTests.swift */; };
+		355DAF2B20E925C300D9F418 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF2A20E925C300D9F418 /* Vehicle.swift */; };
+		355DAF2C20E925C300D9F418 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF2A20E925C300D9F418 /* Vehicle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,7 @@
 		3502A9CF20E815B1000C15DB /* KMKCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMKCore.h; sourceTree = "<group>"; };
 		3502A9D220E81683000C15DB /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
 		3502A9D520E816B6000C15DB /* TestClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClassTests.swift; sourceTree = "<group>"; };
+		355DAF2A20E925C300D9F418 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,9 +129,18 @@
 		3502A9CE20E814AB000C15DB /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
+				355DAF2920E925AD00D9F418 /* Vehicles */,
 				3502A9D520E816B6000C15DB /* TestClassTests.swift */,
 			);
 			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		355DAF2920E925AD00D9F418 /* Vehicles */ = {
+			isa = PBXGroup;
+			children = (
+				355DAF2A20E925C300D9F418 /* Vehicle.swift */,
+			);
+			path = Vehicles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				355DAF2B20E925C300D9F418 /* Vehicle.swift in Sources */,
 				3502A9D320E81683000C15DB /* TestClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				355DAF2C20E925C300D9F418 /* Vehicle.swift in Sources */,
 				3502A9D420E81683000C15DB /* TestClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
