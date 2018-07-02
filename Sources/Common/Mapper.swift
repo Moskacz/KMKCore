@@ -13,7 +13,7 @@ internal enum MappingError: Error, Equatable {
 }
 
 internal class Mapper<Income, Outcome> {
-    func map(from: Income) throws -> Outcome {
+    func map(from type: Income) throws -> Outcome {
         fatalError("abstract method called!")
     }
 }

@@ -16,6 +16,6 @@ public protocol Vehicle {
     var heading: Int { get }
 }
 
-public enum VehicleCategory {
+public enum VehicleCategory: String {
     case tram
 }
