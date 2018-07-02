@@ -48,6 +48,9 @@
 		355DAF6320EA9C5400D9F418 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF6220EA9C5400D9F418 /* Result.swift */; };
 		355DAF6420EA9C5400D9F418 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF6220EA9C5400D9F418 /* Result.swift */; };
 		355DAF6D20EAA1DE00D9F418 /* HTTPClientFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF6C20EAA1DE00D9F418 /* HTTPClientFake.swift */; };
+		355DAF6F20EAA54000D9F418 /* FakeMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF6E20EAA54000D9F418 /* FakeMapper.swift */; };
+		355DAF7020EAA64700D9F418 /* FakeMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF6E20EAA54000D9F418 /* FakeMapper.swift */; };
+		355DAF7120EAA64A00D9F418 /* HTTPClientFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF6C20EAA1DE00D9F418 /* HTTPClientFake.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +99,7 @@
 		355DAF5B20EA97F600D9F418 /* VehicleMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleMapperTests.swift; sourceTree = "<group>"; };
 		355DAF6220EA9C5400D9F418 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		355DAF6C20EAA1DE00D9F418 /* HTTPClientFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientFake.swift; sourceTree = "<group>"; };
+		355DAF6E20EAA54000D9F418 /* FakeMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				355DAF6C20EAA1DE00D9F418 /* HTTPClientFake.swift */,
+				355DAF6E20EAA54000D9F418 /* FakeMapper.swift */,
 			);
 			path = Fakes;
 			sourceTree = "<group>";
@@ -449,6 +454,7 @@
 				3502A9D620E816B6000C15DB /* TestClassTests.swift in Sources */,
 				355DAF6D20EAA1DE00D9F418 /* HTTPClientFake.swift in Sources */,
 				355DAF5920EA960000D9F418 /* JSONLoader.swift in Sources */,
+				355DAF6F20EAA54000D9F418 /* FakeMapper.swift in Sources */,
 				355DAF4B20E9362A00D9F418 /* JSONTests.swift in Sources */,
 				355DAF5C20EA97F600D9F418 /* VehicleMapperTests.swift in Sources */,
 			);
@@ -480,6 +486,8 @@
 				3502A9D720E816B6000C15DB /* TestClassTests.swift in Sources */,
 				355DAF5A20EA960000D9F418 /* JSONLoader.swift in Sources */,
 				355DAF4C20E9362A00D9F418 /* JSONTests.swift in Sources */,
+				355DAF7120EAA64A00D9F418 /* HTTPClientFake.swift in Sources */,
+				355DAF7020EAA64700D9F418 /* FakeMapper.swift in Sources */,
 				355DAF5D20EA97F600D9F418 /* VehicleMapperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
