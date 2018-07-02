@@ -8,5 +8,5 @@
 import Foundation
 
 public protocol VehiclesService {
-    func getVehicles(completion: @escaping (([Vehicle]) -> Void))
+    func getVehicles(completion: @escaping ((Result<[Vehicle]>) -> Void))
 }

@@ -8,7 +8,8 @@
 import Foundation
 
 internal protocol HTTPClient {
-    func performOperation(parameters: HTTPOperationParameters, completion: @escaping ((HTTPOperationResult) -> Void))
+    func performOperation(parameters: HTTPOperationParameters,
+                          completion: @escaping ((Result<JSON>) -> Void))
 }
 
 internal struct HTTPOperationParameters {
@@ -18,9 +19,4 @@ internal struct HTTPOperationParameters {
 
 internal enum HTTPMethod: String {
     case GET = "GET"
-}
-
-internal enum HTTPOperationResult {
-    case error(HTTPOperationError)
-    case json(JSON)
 }

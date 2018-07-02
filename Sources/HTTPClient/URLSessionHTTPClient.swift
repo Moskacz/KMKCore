@@ -9,26 +9,26 @@ import Foundation
 
 extension URLSession: HTTPClient {
     
-    func performOperation(parameters: HTTPOperationParameters, completion: @escaping ((HTTPOperationResult) -> Void)) {
+    func performOperation(parameters: HTTPOperationParameters, completion: @escaping ((Result<JSON>) -> Void)) {
         let task = dataTask(with: parameters.urlRequest) { (data, response, error) in
             if let operationError = error {
-                completion(.error(.general(operationError)))
+                completion(Result.failure(operationError))
             }
             
             if let responseData = data {
                 do {
                     guard let json = try JSONSerialization.jsonObject(with: responseData, options: .allowFragments) as? JSON else {
-                        completion(HTTPOperationResult.error(HTTPOperationError.invalidResponse))
+                        completion(Result.failure(HTTPOperationError.invalidResponse))
                         return
                     }
-                    completion(.json(json))
+                    completion(Result.success(json))
                 } catch {
-                    completion(.error(.invalidResponse))
+                    completion(Result.failure(HTTPOperationError.invalidResponse))
                 }
             }
-            completion(.error(.invalidResponse))
+            completion(Result.failure(HTTPOperationError.invalidResponse))
         }
-    
+        
         task.resume()
     }
 }
