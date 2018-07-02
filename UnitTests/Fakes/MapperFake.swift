@@ -8,7 +8,7 @@
 import Foundation
 @testable import KMKCore
 
-internal class FakeMapper<Income, Outcome>: Mapper<Income, Outcome> {
+internal class MapperFake<Income, Outcome>: Mapper<Income, Outcome> {
     
     var passedType: Income?
     var errorToThrow: Error?
