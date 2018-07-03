@@ -59,6 +59,12 @@
 		355DAF7B20EBEE5F00D9F418 /* StopImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF7920EBEE5F00D9F418 /* StopImpl.swift */; };
 		355DAF7D20EBEEC000D9F418 /* StopMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF7C20EBEEC000D9F418 /* StopMapper.swift */; };
 		355DAF7E20EBEEC000D9F418 /* StopMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF7C20EBEEC000D9F418 /* StopMapper.swift */; };
+		355DAF8620EBF23700D9F418 /* StopMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF8520EBF23700D9F418 /* StopMapperTests.swift */; };
+		355DAF8720EBF23700D9F418 /* StopMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF8520EBF23700D9F418 /* StopMapperTests.swift */; };
+		355DAF8820EBF37F00D9F418 /* stop.json in Resources */ = {isa = PBXBuildFile; fileRef = 355DAF7F20EBF21400D9F418 /* stop.json */; };
+		355DAF8920EBF38100D9F418 /* stop.json in Resources */ = {isa = PBXBuildFile; fileRef = 355DAF7F20EBF21400D9F418 /* stop.json */; };
+		355DAF8A20EBF38400D9F418 /* stops.json in Resources */ = {isa = PBXBuildFile; fileRef = 355DAF8020EBF21400D9F418 /* stops.json */; };
+		355DAF8B20EBF38500D9F418 /* stops.json in Resources */ = {isa = PBXBuildFile; fileRef = 355DAF8020EBF21400D9F418 /* stops.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +118,9 @@
 		355DAF7620EBE22F00D9F418 /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
 		355DAF7920EBEE5F00D9F418 /* StopImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopImpl.swift; sourceTree = "<group>"; };
 		355DAF7C20EBEEC000D9F418 /* StopMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopMapper.swift; sourceTree = "<group>"; };
+		355DAF7F20EBF21400D9F418 /* stop.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stop.json; sourceTree = "<group>"; };
+		355DAF8020EBF21400D9F418 /* stops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stops.json; sourceTree = "<group>"; };
+		355DAF8520EBF23700D9F418 /* StopMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopMapperTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +212,7 @@
 				355DAF4A20E9362A00D9F418 /* JSONTests.swift */,
 				355DAF5B20EA97F600D9F418 /* VehicleMapperTests.swift */,
 				355DAF7220EAA71B00D9F418 /* VehiclesServiceWebImplTests.swift */,
+				355DAF8520EBF23700D9F418 /* StopMapperTests.swift */,
 			);
 			path = UnitTests;
 			sourceTree = "<group>";
@@ -242,6 +252,8 @@
 		355DAF4D20EA956300D9F418 /* JSONs */ = {
 			isa = PBXGroup;
 			children = (
+				355DAF7F20EBF21400D9F418 /* stop.json */,
+				355DAF8020EBF21400D9F418 /* stops.json */,
 				355DAF5520EA95E900D9F418 /* vehicle.json */,
 				355DAF5220EA95C200D9F418 /* vehicles.json */,
 			);
@@ -429,7 +441,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				355DAF6120EA9A1E00D9F418 /* vehicles.json in Resources */,
+				355DAF8920EBF38100D9F418 /* stop.json in Resources */,
 				355DAF5E20EA9A1900D9F418 /* vehicle.json in Resources */,
+				355DAF8B20EBF38500D9F418 /* stops.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +459,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				355DAF6020EA9A1D00D9F418 /* vehicles.json in Resources */,
+				355DAF8820EBF37F00D9F418 /* stop.json in Resources */,
 				355DAF5F20EA9A1A00D9F418 /* vehicle.json in Resources */,
+				355DAF8A20EBF38400D9F418 /* stops.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +500,7 @@
 				355DAF6F20EAA54000D9F418 /* MapperFake.swift in Sources */,
 				355DAF4B20E9362A00D9F418 /* JSONTests.swift in Sources */,
 				355DAF5C20EA97F600D9F418 /* VehicleMapperTests.swift in Sources */,
+				355DAF8620EBF23700D9F418 /* StopMapperTests.swift in Sources */,
 				355DAF7320EAA71B00D9F418 /* VehiclesServiceWebImplTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,6 +537,7 @@
 				355DAF7120EAA64A00D9F418 /* HTTPClientFake.swift in Sources */,
 				355DAF7020EAA64700D9F418 /* MapperFake.swift in Sources */,
 				355DAF5D20EA97F600D9F418 /* VehicleMapperTests.swift in Sources */,
+				355DAF8720EBF23700D9F418 /* StopMapperTests.swift in Sources */,
 				355DAF7420EAA71B00D9F418 /* VehiclesServiceWebImplTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
