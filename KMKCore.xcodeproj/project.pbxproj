@@ -53,6 +53,8 @@
 		355DAF7120EAA64A00D9F418 /* HTTPClientFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF6C20EAA1DE00D9F418 /* HTTPClientFake.swift */; };
 		355DAF7320EAA71B00D9F418 /* VehiclesServiceWebImplTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF7220EAA71B00D9F418 /* VehiclesServiceWebImplTests.swift */; };
 		355DAF7420EAA71B00D9F418 /* VehiclesServiceWebImplTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF7220EAA71B00D9F418 /* VehiclesServiceWebImplTests.swift */; };
+		355DAF7720EBE22F00D9F418 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF7620EBE22F00D9F418 /* Stop.swift */; };
+		355DAF7820EBE22F00D9F418 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF7620EBE22F00D9F418 /* Stop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +105,7 @@
 		355DAF6C20EAA1DE00D9F418 /* HTTPClientFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientFake.swift; sourceTree = "<group>"; };
 		355DAF6E20EAA54000D9F418 /* MapperFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapperFake.swift; sourceTree = "<group>"; };
 		355DAF7220EAA71B00D9F418 /* VehiclesServiceWebImplTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesServiceWebImplTests.swift; sourceTree = "<group>"; };
+		355DAF7620EBE22F00D9F418 /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +166,7 @@
 		3502A9C820E80F1F000C15DB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				355DAF7520EBE1C000D9F418 /* Stops */,
 				355DAF4020E932DB00D9F418 /* Common */,
 				355DAF3620E929F800D9F418 /* HTTPClient */,
 				355DAF2920E925AD00D9F418 /* Vehicles */,
@@ -253,6 +257,14 @@
 				355DAF6E20EAA54000D9F418 /* MapperFake.swift */,
 			);
 			path = Fakes;
+			sourceTree = "<group>";
+		};
+		355DAF7520EBE1C000D9F418 /* Stops */ = {
+			isa = PBXGroup;
+			children = (
+				355DAF7620EBE22F00D9F418 /* Stop.swift */,
+			);
+			path = Stops;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -444,6 +456,7 @@
 				355DAF4220E9332A00D9F418 /* Mapper.swift in Sources */,
 				355DAF6320EA9C5400D9F418 /* Result.swift in Sources */,
 				355DAF3B20E92BBB00D9F418 /* URLSessionHTTPClient.swift in Sources */,
+				355DAF7720EBE22F00D9F418 /* Stop.swift in Sources */,
 				355DAF2E20E926E000D9F418 /* VehicleImpl.swift in Sources */,
 				355DAF3E20E92FAF00D9F418 /* HTTPOperationError.swift in Sources */,
 				3502A9D320E81683000C15DB /* TestClass.swift in Sources */,
@@ -477,6 +490,7 @@
 				355DAF4320E9332A00D9F418 /* Mapper.swift in Sources */,
 				355DAF6420EA9C5400D9F418 /* Result.swift in Sources */,
 				355DAF3C20E92BBB00D9F418 /* URLSessionHTTPClient.swift in Sources */,
+				355DAF7820EBE22F00D9F418 /* Stop.swift in Sources */,
 				355DAF2F20E926E000D9F418 /* VehicleImpl.swift in Sources */,
 				355DAF3F20E92FAF00D9F418 /* HTTPOperationError.swift in Sources */,
 				3502A9D420E81683000C15DB /* TestClass.swift in Sources */,
