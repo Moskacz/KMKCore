@@ -12,6 +12,12 @@ public struct GetStopsParameters {
     let right: Int
     let top: Int
     let bottom: Int
+    
+    internal var queryItems: [URLQueryItem] {
+        return [("left", left), ("right", right), ("top", top), ("bottom",bottom)].map {
+            URLQueryItem(name: $0.0, value: "\($0.1)")
+        }
+    }
 }
 
 public protocol StopsService {
