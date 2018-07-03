@@ -65,6 +65,8 @@
 		355DAF8920EBF38100D9F418 /* stop.json in Resources */ = {isa = PBXBuildFile; fileRef = 355DAF7F20EBF21400D9F418 /* stop.json */; };
 		355DAF8A20EBF38400D9F418 /* stops.json in Resources */ = {isa = PBXBuildFile; fileRef = 355DAF8020EBF21400D9F418 /* stops.json */; };
 		355DAF8B20EBF38500D9F418 /* stops.json in Resources */ = {isa = PBXBuildFile; fileRef = 355DAF8020EBF21400D9F418 /* stops.json */; };
+		355DAF8D20EBF4AD00D9F418 /* StopsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF8C20EBF4AD00D9F418 /* StopsService.swift */; };
+		355DAF8E20EBF4AD00D9F418 /* StopsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DAF8C20EBF4AD00D9F418 /* StopsService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +123,7 @@
 		355DAF7F20EBF21400D9F418 /* stop.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stop.json; sourceTree = "<group>"; };
 		355DAF8020EBF21400D9F418 /* stops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stops.json; sourceTree = "<group>"; };
 		355DAF8520EBF23700D9F418 /* StopMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopMapperTests.swift; sourceTree = "<group>"; };
+		355DAF8C20EBF4AD00D9F418 /* StopsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopsService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,6 +286,7 @@
 				355DAF7620EBE22F00D9F418 /* Stop.swift */,
 				355DAF7920EBEE5F00D9F418 /* StopImpl.swift */,
 				355DAF7C20EBEEC000D9F418 /* StopMapper.swift */,
+				355DAF8C20EBF4AD00D9F418 /* StopsService.swift */,
 			);
 			path = Stops;
 			sourceTree = "<group>";
@@ -479,6 +483,7 @@
 				355DAF7D20EBEEC000D9F418 /* StopMapper.swift in Sources */,
 				355DAF3420E9286E00D9F418 /* VehiclesServiceWebImpl.swift in Sources */,
 				355DAF3820E92A0F00D9F418 /* HTTPClient.swift in Sources */,
+				355DAF8D20EBF4AD00D9F418 /* StopsService.swift in Sources */,
 				355DAF4220E9332A00D9F418 /* Mapper.swift in Sources */,
 				355DAF6320EA9C5400D9F418 /* Result.swift in Sources */,
 				355DAF3B20E92BBB00D9F418 /* URLSessionHTTPClient.swift in Sources */,
@@ -516,6 +521,7 @@
 				355DAF7E20EBEEC000D9F418 /* StopMapper.swift in Sources */,
 				355DAF3520E9286E00D9F418 /* VehiclesServiceWebImpl.swift in Sources */,
 				355DAF3920E92A0F00D9F418 /* HTTPClient.swift in Sources */,
+				355DAF8E20EBF4AD00D9F418 /* StopsService.swift in Sources */,
 				355DAF4320E9332A00D9F418 /* Mapper.swift in Sources */,
 				355DAF6420EA9C5400D9F418 /* Result.swift in Sources */,
 				355DAF3C20E92BBB00D9F418 /* URLSessionHTTPClient.swift in Sources */,
