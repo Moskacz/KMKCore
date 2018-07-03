@@ -10,7 +10,12 @@ import Foundation
 extension URLSession: HTTPClient {
     
     func performOperation(parameters: HTTPOperationParameters, completion: @escaping ((Result<JSON>) -> Void)) {
-        let task = dataTask(with: parameters.urlRequest) { (data, response, error) in
+        guard let request = parameters.urlRequest else {
+            completion(Result.failure(HTTPOperationError.invalidParameters(parameters)))
+            return
+        }
+        
+        let task = dataTask(with: request) { (data, response, error) in
             if let operationError = error {
                 completion(Result.failure(operationError))
             }
@@ -33,10 +38,4 @@ extension URLSession: HTTPClient {
     }
 }
 
-extension HTTPOperationParameters {
-    var urlRequest: URLRequest {
-        var request = URLRequest(url: url)
-        request.httpMethod = method.rawValue
-        return request
-    }
-}
+

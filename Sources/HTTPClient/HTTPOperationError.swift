@@ -10,4 +10,5 @@ import Foundation
 internal enum HTTPOperationError: Error {
     case general(Error)
     case invalidResponse
+    case invalidParameters(HTTPOperationParameters)
 }

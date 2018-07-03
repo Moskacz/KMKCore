@@ -13,7 +13,7 @@ class VehiclesServiceWebImplTests: XCTestCase {
     var sut: VehiclesServiceWebImpl!
     var httpClient: HTTPClientFake!
     var mapper: Mapper<JSON, Vehicle>!
-    let url = URL(string: "http://someservices.com/service")!
+    let url = "http://someservices.com/service"
     
     override func setUp() {
         super.setUp()
@@ -34,7 +34,7 @@ class VehiclesServiceWebImplTests: XCTestCase {
     func test_getVehicles_parameters() {
         sut.getVehicles(completion: { _ in })
         XCTAssertEqual(httpClient.passedParameters!.method, .GET)
-        XCTAssertEqual(httpClient.passedParameters!.url, url)
+        XCTAssertEqual(httpClient.passedParameters!.urlComponents!.url!.absoluteString, url)
     }
     
     func test_getVehicles_ifHttpClientHasThrowError_thenItShouldBeReturned() {

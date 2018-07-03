@@ -11,16 +11,17 @@ internal class VehiclesServiceWebImpl: VehiclesService {
     
     private let httpClient: HTTPClient
     private let mapper: Mapper<JSON, Vehicle>
-    private let vehiclesURL: URL
+    private let vehiclesURL: String
     
-    internal init(httpClient: HTTPClient, mapper: Mapper<JSON, Vehicle>, vehiclesURL: URL) {
+    internal init(httpClient: HTTPClient, mapper: Mapper<JSON, Vehicle>, vehiclesURL: String) {
         self.httpClient = httpClient
         self.mapper = mapper
         self.vehiclesURL = vehiclesURL
     }
     
     func getVehicles(completion: @escaping ((Result<[Vehicle]>) -> Void)) {
-        httpClient.performOperation(parameters: HTTPOperationParameters(url: vehiclesURL, method: .GET)) { (result) in
+        let parameters = HTTPOperationParameters(url: vehiclesURL, method: .GET)
+        httpClient.performOperation(parameters: parameters) { (result) in
             switch result {
             case .success(let json):
                 do {
