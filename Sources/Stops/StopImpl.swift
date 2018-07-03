@@ -8,6 +8,7 @@
 import Foundation
 
 internal struct StopImpl: Stop {
+    let category: StopCategory
     let id: String
     let latitude: Int
     let longitude: Int

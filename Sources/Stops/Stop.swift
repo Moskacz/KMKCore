@@ -8,6 +8,7 @@
 import Foundation
 
 public protocol Stop {
+    var category: StopCategory { get }
     var id: String { get }
     var latitude: Int { get }
     var longitude: Int { get }
